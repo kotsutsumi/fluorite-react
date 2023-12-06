@@ -1,7 +1,6 @@
 // SpeedDial.tsx
 
 import { SpeedDial as PrimeReactSpeedDial } from 'primereact/speeddial'
-import React from 'react'
 
 /**
  * SpeedDial
