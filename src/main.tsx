@@ -3,8 +3,6 @@
 import 'modern-css-reset'
 import './index.scss'
 
-import { PrimeReactProvider } from 'primereact/api'
-import Tailwind from 'primereact/passthrough/tailwind'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
@@ -22,11 +20,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
-        <PrimeReactProvider value={{ unstyled: true, pt: Tailwind }}>
-            <div className="flex h-screen bg-green-300">
-                <RouterProvider router={router} />
-            </div>
-        </PrimeReactProvider>
+        <RouterProvider router={router} />
     </React.StrictMode>
 )
 

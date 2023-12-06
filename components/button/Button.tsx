@@ -1,16 +1,16 @@
 // Button.tsx
 
-import React, { Button as PrimeReactButton } from 'primereact/button'
+import { Button as PrimeReactButton } from 'primereact/button'
 
 /**
  * Button
  *
  * @returns
  */
-export default function Button(props) {
+export default function Button(props: any) {
     //
 
-    // --------------------------------------------------------------------------------------------
+    // ---------------------------------------------------------------------------------------------
 
     return <PrimeReactButton {...props} />
 
