@@ -3,6 +3,8 @@
 import clsx from 'clsx'
 import { ReactNode } from 'react'
 
+import 'primeicons/primeicons.css'
+
 import FluoriteProvider from '../components/FluoriteProvider'
 import Header from '../components/page/Header'
 import Main from '../components/page/Main'
