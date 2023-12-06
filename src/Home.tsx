@@ -1,6 +1,6 @@
-// App.tsx
+// Home.tsx
 
-import './App.scss'
+import styles from './Home.module.scss'
 import Button from '../components/button/Button'
 
 function App() {
