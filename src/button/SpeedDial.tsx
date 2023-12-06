@@ -4,7 +4,7 @@ import styles from './SpeedDial.module.scss'
 import PageBase from '../PageBase'
 import FluoriteSpeedDial from '../../components/button/SpeedDial'
 
-import { MenuItem } from 'primereact/menuitem'
+import MenuItem from '../../components/types/MenuItem'
 
 /**
  * SpeedDial
