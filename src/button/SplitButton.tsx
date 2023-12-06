@@ -49,7 +49,7 @@ export default function SplitButton() {
     ]
 
     const save = () => {
-        toast.current.show({ severity: 'success', summary: 'Success', detail: 'Data Saved' })
+        // toast.current.show({ severity: 'success', summary: 'Success', detail: 'Data Saved' })
     }
 
     // ---------------------------------------------------------------------------------------------
