@@ -1,12 +1,13 @@
 // PageBase.tsx
 
-import { ReactNode } from 'react'
-import FluoriteProvider from '../components/FluoriteProvider'
-import Screen from '../components/page/Screen'
-import Header from '../components/page/Header'
-import Sidebar from '../components/page/Sidebar'
-import Main from '../components/page/Main'
 import clsx from 'clsx'
+import { ReactNode } from 'react'
+
+import FluoriteProvider from '../components/FluoriteProvider'
+import Header from '../components/page/Header'
+import Main from '../components/page/Main'
+import Screen from '../components/page/Screen'
+import Sidebar from '../components/page/Sidebar'
 
 /**
  * PageBase

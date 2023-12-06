@@ -22,7 +22,16 @@ export default function Screen({
     // ---------------------------------------------------------------------------------------------
 
     return (
-        <div className={clsx('flex', 'h-screen', 'w-screen', 'bg-slate-50', className)}>
+        <div
+            className={clsx(
+                'flex',
+                'h-screen',
+                'w-screen',
+                'overflow-hidden',
+                'bg-slate-50',
+                className
+            )}
+        >
             <div
                 className={clsx(
                     'flex-1',

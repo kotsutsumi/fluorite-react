@@ -9,13 +9,25 @@ import { ReactNode } from 'react'
  *
  * @returns
  */
-export default function FluoriteProvider({ children }: { children: ReactNode }) {
+export default function FluoriteProvider({
+    children,
+    unstyled,
+    pt
+}: {
+    children: ReactNode
+    unstyled?: boolean
+    pt?: any
+}) {
     //
 
     // ---------------------------------------------------------------------------------------------
 
     return (
-        <PrimeReactProvider value={{ unstyled: true, pt: Tailwind }}>{children}</PrimeReactProvider>
+        <PrimeReactProvider
+            value={{ unstyled: unstyled ? unstyled : true, pt: pt ? pt : Tailwind }}
+        >
+            {children}
+        </PrimeReactProvider>
     )
 
     //
