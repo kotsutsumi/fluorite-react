@@ -11,6 +11,8 @@ import Main from '../components/page/Main'
 import Screen from '../components/page/Screen'
 import Sidebar from '../components/page/Sidebar'
 
+import logo from './svg/logo.svg'
+
 /**
  * PageBase
  *
@@ -34,7 +36,15 @@ export default function PageBase({
                 <Header>
                     {/* Left */}
                     <div className={clsx('flex')}>
-                        <h1 className={clsx('text-4xl', 'text-cyan-950')}>Fluorite React</h1>
+                        <h1 className={clsx('text-4xl', 'text-cyan-950')}>
+                            <img
+                                src={logo}
+                                className="logo"
+                                alt="Fluorite Logo"
+                                height="44"
+                                width="150"
+                            />
+                        </h1>
                     </div>
                     {/* Right */}
                     <div className={clsx('flex')}></div>

@@ -13,6 +13,8 @@ import Button from './button/Button.tsx'
 import SpeedDial from './button/SpeedDial.tsx'
 import SplitButton from './button/SplitButton.tsx'
 
+import ButtonExample from './examples/button/Button.tsx'
+
 const router = createBrowserRouter([
     {
         path: '/',
@@ -20,16 +22,21 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />
     },
     {
-        path: '/button',
+        path: '/button/button',
         element: <Button />
     },
+
     {
-        path: '/speed-dial',
+        path: '/button/speed-dial',
         element: <SpeedDial />
     },
     {
-        path: '/split-button',
+        path: '/button/split-button',
         element: <SplitButton />
+    },
+    {
+        path: '/examples/button/button',
+        element: <ButtonExample />
     }
 ])
 
